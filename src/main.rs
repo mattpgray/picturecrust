@@ -25,7 +25,6 @@ fn gen_proposal(len: usize, settings: &[i32]) -> Vec<Proposal> {
     let mut proposals: Vec<Proposal> = Vec::new();
     for i in 0..remaining_space + 1 {
         let mut head: Vec<CellState> = Vec::new();
-        // TODO: Gen the proposal head
         for _ in 0..i {
             head.push(CellState::Cross);
         }
