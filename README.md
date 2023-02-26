@@ -4,7 +4,7 @@ PicturecRUST is a picture cross solver, written in rust.
 
 It uses the following procedure to solve a picture cross puzzle:
 
-1: Generate a list of proposals for each row and column based on the row and column settings.
+1. Generate a list of proposals for each row and column based on the row and column settings.
    For example, row setting of (3, 3) has 3 possible configurations:
    ```
    1. ███X███X
